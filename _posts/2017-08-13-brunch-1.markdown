@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Brunch #1"
+date:   2017-08-13
+---
+
+The first issue of brunch, the first bunch of links. Today everything to read (unless you want to watch one vid instead of reading a transcript).
+
+* A really nice write-up of web history in 21st century, and how Rails affected it by AkitaOnRails - [Why it is just lazy to bad-mouth Ruby on Rails](http://www.akitaonrails.com/2017/08/03/why-is-it-just-lazy-to-bad-mouth-ruby-on-rails)
+
+* Read/watch James Adam on [Why is nobody using refinements in Ruby](http://interblah.net/why-is-nobody-using-refinements)
+
+* DDD gains quite a lot of traction recently, so there you have it - [Developer-Driven Development](https://hackernoon.com/development-driven-development-75c01b2afca1) (you weren't thinking about Domain Driven Design, were you?), which sheds light on how we treat each other in the industry
+
+* Read Henrik Kniberg's post on [how to make sense out of MVP](http://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
+
+* Have you ever thought about motivating your team thru competition? If not, [Evil Coach has you covered](http://blog.crisp.se/2014/05/18/evil-coach/competivation). ;)
