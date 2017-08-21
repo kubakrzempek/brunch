@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Brunch #2"
+date:   2017-08-20
+---
+
+* This time we start with Vidya Narayanan, ex-google woman tech lead, [who is sick about current approach to diversity in IT](https://medium.com/the-mission/im-an-ex-google-woman-tech-leader-and-i-m-sick-of-our-approach-to-diversity-17008c5fe999)
+
+* Read thru Jasson Shen's [Lessons on Interviewing for Product Manager Roles](https://www.jasonshen.com/2017/interviewing-for-product-manager-roles/). Actually, this bit is not only for managers, because everyone can capitialize on the big picture that emerges out of it.
+
+* Read a write up by Eric Normand with story [why LISP was one of the greatest idea in programming, and how we still use it today](dev.to/ericnormand/the-idea-of-lisp).
+
+* Why should you care about [async/await](https://blog.patricktriest.com/what-is-async-await-why-should-you-care/) and it can make your code much easier to write and follow.
