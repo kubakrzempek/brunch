@@ -7,3 +7,5 @@ date:   2017-08-27
 This issue is going to be a little bit more technical than the previous ones. We are starting a little bit different, though, so bear with me. :)
 
 * Watch Manouch Zomorodi talking about how [boredom can lead to briliant ideas](https://www.invisionapp.com/blog/boredom-creativity/), why we should ditch our phones from time to time, and why the best ideas are born in the shower.
+
+* Read [12 signs you are a working in/for a feature factory](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2)
