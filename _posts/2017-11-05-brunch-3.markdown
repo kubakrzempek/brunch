@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Brunch #3"
+date:   2017-11-05
+---
+
+This issue is going to be a little bit more technical than the previous ones. We are starting a little bit different, though, so bear with me. :)
+
+* Watch Manouch Zomorodi talking about how [boredom can lead to briliant ideas](https://www.invisionapp.com/blog/boredom-creativity/), why we should ditch our phones from time to time, and why the best ideas are born in the shower.
+
+* Read [12 signs you are a working in/for a feature factory](https://hackernoon.com/12-signs-youre-working-in-a-feature-factory-44a5b938d6a2)
+
+* [Memory concious programming in Ruby](https://gettalong.org/blog/2017/memory-conscious-programming-in-ruby.html)
+
+* Everything from Sandi Metz is a pure gold, so go ahead and read [how to break a large app](https://www.sandimetz.com/blog/2017/9/13/breaking-up-the-behemoth)
+
+* Read Avdi Grimm's thoughs about overusing/abusing [service objects](https://avdi.codes/service-objects/)...
+
+* ... and Aaron Lasengie's [response](https://aaronlasseigne.com/2017/11/08/why-arent-we-using-more-service-objects-already/) to that
