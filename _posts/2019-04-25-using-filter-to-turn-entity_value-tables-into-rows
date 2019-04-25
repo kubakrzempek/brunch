@@ -1,0 +1,30 @@
+Using FILTER to turn entity/value tables into rows of entities
+
+An entire article could be written on this topic, but I wanted to show off the most basic use of SQL:2003's FILTER clause that was added to Postgres 9.4.
+
+Let's say you have a table called props that represents entities, attributes, and values with an integer id column, textual attribute and value columns, and the following contents:
+
+x=#select * from props;
+id attr val
+1 name sam
+1 age 42
+2 name jim
+2 age 81
+2 city grenoble
+
+The FILTER clause essentially adds an extra WHERE clause to aggregate functions (such as MIN, MAX and SUM) allowing you to scope them.
+
+This comes in very handy for pulling out values from our val column based upon the value of the attr column, therefore allowing us to turn a table of entities, attributes and values into a more classical set of columns.
+
+SELECT id,
+       MAX(val) FILTER(WHERE attr='name') AS name,
+       MAX(val) FILTER(WHERE attr='age') AS age,
+       MAX(val) FILTER(where attr='city') AS city
+FROM props GROUP BY id;
+You might need to reproduce this table and play with the query to get the feel of what's going on, but essentially we are selecting each row grouped by the ID (i.e. the ID of the underlying entity) and then picking the value associated with each ID that matches certain attribute names, allowing us, in this case, to extract the name, age, and city values. MAX works fine as an aggregate function here as there is only one attr/val pair per entity.
+
+The FILTER clause has a lot more uses than this, but I felt this was both a pretty neat and perhaps unexpected example of its use.
+
+You can learn more in this article and in the official Postgres documentation.
+
+This week's tip is sponsored by Hasura, creators of the high-performance GraphQL engine on new and existing Postgres databases. Check them out on GitHub.
